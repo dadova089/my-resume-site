@@ -1,0 +1,18 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Редакторы
+.vscode/
+.idea/
+*.swp
+
+# Логи
+*.log
+
+# Окружения
+.env
+.env.local
+
+# Docker
+.docker/

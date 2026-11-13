@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Персональный сайт-визитка Ивана Иванова — DevOps-инженер">
+    <title>Марцонь Константин — DevOps-инженер</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигация -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#top" class="logo">ИИ<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="top" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Привет, меня зовут</p>
+                <h1 class="hero-name">Марцонь константин</h1>
+                <h2 class="hero-role">Разработчик чего то</h2>
+                <p class="hero-desc">
+                    Есть навыки програмирование на python, C#
+                    Так же языки разметки HTML, CSS.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Связаться со мной</a>
+                    <a href="#projects" class="btn btn-outline">Мои проекты</a>
+                </div>
+            </div>
+            <div class="hero-avatar">
+                <div class="avatar-circle">ИИ</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        занимаюсь разработкой и сопровождением веб-сервисов.
+                        Специализируюсь на многом, так как основного напрвление нету.
+                    </p>
+                </div>
+                <ul class="facts-list">
+                    <li><span class="fact-num">3+</span><span class="fact-label">года опыта</span></li>
+                    <li><span class="fact-num">20+</span><span class="fact-label">проектов</span></li>
+                    <li><span class="fact-num">99.9%</span><span class="fact-label">uptime</span></li>
+                    <li><span class="fact-num">∞</span><span class="fact-label">чашек чая</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Навыки</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Контейнеризация</h3>
+                    <p>Docker, Docker Compose, multi-stage builds, оптимизация образов</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend</h3>
+                    <p>Pytho, PostgreSQL</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Linux</h3>
+                    <p>Ubuntu, Debian, systemd, управление процессами, безопасность</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Git</h3>
+                    <p>Ветвление, code review, семантические коммиты, релизный цикл</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Марцонь Константин.</p>
+        </div>
+    </footer>
+</body>
+</html>
